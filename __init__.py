@@ -96,12 +96,12 @@ class RivescriptSkill(AutotranslatableFallback):
 
     def get_intro_message(self):
         name = "rive script"
-        folder = self._dir.split("/")[-1]
+        folder = self._dir.split("/")[-1].replace("-universal", "")
         blacklisted_skills = self.config_core.get("skills", {}).get(
             "blacklisted_skills", [])
         if folder not in blacklisted_skills:
             return "you installed universal " + name + " skill, you should " \
-                   "also blacklist the official " + name + " skill to avoid " \
+                   "also blacklist the standard " + name + " skill to avoid " \
                    "potential problems"
         return None
 
