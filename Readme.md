@@ -1,4 +1,4 @@
-# Fallback Rivescript
+# Universal Rivescript Fallback
 
 [rivescript](https://www.rivescript.com/) fallback skill
 
@@ -6,6 +6,8 @@ classic [ELIZA](https://en.wikipedia.org/wiki/ELIZA) chatbot answers + a few [co
 
 
 edit/add rivescript files to brain/lang-code/ to extend functionality, please submit PRs if you do so
+
+Works in any language by using [auto translatable skills](https://github.com/JarbasAl/mycroft_jarbas_utils/tree/master/mycroft_jarbas_utils/skills)
 
 # usage
 
