@@ -1,0 +1,2 @@
+rivescript
+git+https://github.com/JarbasAl/mycroft_jarbas_utils
